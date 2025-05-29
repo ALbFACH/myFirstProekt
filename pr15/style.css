@@ -1,0 +1,78 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Alumni Sans;
+    src: url(AlumniSans-VariableFont_wght.ttf);
+}
+.wraper {
+    display: grid;
+    grid-template-columns:  495px 405px 405px ;
+    grid-template-rows: auto auto; 
+    gap: 5px;
+    margin:5px 54px 19px  118px ;
+    
+    
+}
+.img1 {
+    background: url(img/img1.png);
+    grid-row: span 2;
+    background-size: cover;
+    height: 612px;
+    width: 489px;
+}
+.img2 {
+    background: url(img/img2.png);
+    background-size: cover;
+    height: 294px;
+    width: 398px;
+    
+}
+.img3 {
+    background: url(img/img3.png);
+    background-size: cover;
+    height: 293px;
+    width: 405px;
+    
+}
+.img4 {
+    background: url(img/img4.png);
+    background-size: cover;
+    height: 301px;
+    width: 399px;
+    
+}
+.img5 {
+    background: url(img/img5.png);
+    background-size: cover;
+    height: 301px;
+    width: 405px;
+    
+}
+.zag {
+    text-align: center;
+    margin: 50px 57px 3px 70px ;
+    font-size: 48px;
+    font-family: Alumni Sans;
+    height: 58px;
+    width: 1313px;
+    font-weight: bold;
+}
+p {
+    margin:5px 57px 71px  118px ;
+    font-size: 24px;
+    font-family: Alumni Sans;
+    text-wrap: wrap;
+    height: 111px ;
+    width: 1312px;
+}
+.vv {
+    margin: 0 auto;
+    background: white;
+    width: 1500px;
+}
+body{
+    background: black;
+}
