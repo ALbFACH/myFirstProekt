@@ -1,0 +1,75 @@
+.p1 {
+    text-align: center;
+}
+.p2 {
+    text-indent: 5px;
+}
+.p3 {
+    line-height: 5px;
+}
+.p4 {
+    vertical-align: baseline;
+}
+.p5 {
+word-spacing: 5px;
+}
+.p6 {
+letter-spacing: 5px;
+}
+.p7{
+white-space: nowrap;
+}
+.p8{
+tab-size: 16;
+}
+.p9 {
+text-transform: uppercase;
+}
+.p10 {
+direction: rtl;
+}
+#p11 {
+    unicode-bidi: bidi-override;
+}
+#p12 {
+    text-decoration: underline;
+}
+#p13::first-letter {
+    font-size: 2em;
+    color: aqua;
+}
+#p13::first-line {
+    color: blue;
+}
+#p14  {
+    quotes:none;
+}
+#p15 {
+    text-align: center;
+    line-height: normal;
+}
+#p16 {
+    vertical-align: middle;
+    word-spacing: 5px;
+}
+#p17 {
+    letter-spacing: 10px;
+    word-spacing: 5px;
+}
+#p18 {
+    white-space: pre-wrap;
+    word-spacing: 5px;
+}
+#p19 {
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+#p20 {
+    unicode-bidi: embed;
+    word-spacing: 5px;
+}
+#p21 {
+    unicode-bidi: embed;
+    direction: inherit;
+    
+}

@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: byroic;
+    src: url(font/byronic-2.ttf);
+}
+.wraper {
+    display: grid;
+    grid-template-columns:  300px 300px;
+    grid-template-rows: auto auto; 
+    gap: 15px;
+    margin-top: 130px ;
+    margin-left: 200px;
+}
+.zag {
+    text-align: center;
+    margin: 50px 57px 3px 70px ;
+    font-size: 48px;
+    font-family: byroic;
+    height: 58px;
+    width: 1313px;
+    font-weight: bold;
+    color: #b1aba5;
+}
+.zag1 {
+    text-align: center;
+    margin: 50px 57px 3px 70px ;
+    font-size: 45px;
+    font-family: byroic;
+    height: 58px;
+    width: 1313px;
+    font-weight: bold;
+    color: #939393;
+}
+.img1 {
+    background: url(img/chel.png);
+    grid-row: span 2;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+}
+.img2 ul {
+    list-style: url(img/galka.png) ;
+}
+.img2 li {
+    list-style-type: none;
+}
+.img2 {
+    padding: 15px;
+    color: #d86c5a;
+    margin-top: 20px;
+    margin-left: 35px;
+    font-family: byroic;
+}
+.img2 ul li {
+    margin:0 20px 10px 0;
+}
+.img3{
+    display: flex;
+    background: #aba59f;
+    color: white;
+    border-radius: 2px;
+    justify-content: center;
+    width: 100px;
+    height: 45px;
+    margin-left: 35px;
+}
+button {
+    background: #aba59f;
+    color: white;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    font-family: byroic;
+}

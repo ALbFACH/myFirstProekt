@@ -1,0 +1,83 @@
+.prew {
+    width: 200px;
+    height: 100px;
+}
+.new1 {
+    background: url(../img/кот.png) center;
+    background-size: cover;
+    width: 270px;
+    height:270px;
+}
+.new2 {
+    background: url(../img/kot-frontalka-1.webp);
+    background-size: cover;
+    width: 270px;
+    height:270px;
+}
+body {
+    background: #98c793;
+}
+h1 {
+    font-size: 24px ;
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    font-size: 20px;
+}
+h3 {
+    font-size: 18px ;
+}
+* {
+    font-size: 16px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul li {
+    display: inline-block;
+}
+ul {
+    background: #d0f0c0;
+    border-radius: 15px;
+}
+li {
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+}
+.content {
+    display: flex;
+}
+main {
+    width:70% ;
+}
+aside {
+    width: 200px ;
+    background: #d0f0c0;
+    border-radius: 20px;
+}
+.as {
+    padding: 10px;
+}
+.navik {
+    display: flex;
+    background: #d0f0c0;
+    border-radius: 20px;
+    width: 600px ;
+    text-align: center;
+}
+.a1 {
+width: 50%;
+padding: 15px;
+}
+.kyrsi {
+    display: flex;
+    background: #d0f0c0;
+    border-radius: 20px;
+    width: 600px ;
+    text-align: center;
+}
+.a2 {
+width: 50%;
+padding: 15px;
+}
